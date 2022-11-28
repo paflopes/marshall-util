@@ -1,0 +1,39 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@aws-sdk/util-dynamodb': ^3.216.0
+  commander: ^9.4.1
+  stream-json: ^1.7.5
+
+dependencies:
+  '@aws-sdk/util-dynamodb': 3.216.0
+  commander: 9.4.1
+  stream-json: 1.7.5
+
+packages:
+
+  /@aws-sdk/util-dynamodb/3.216.0:
+    resolution: {integrity: sha512-KoTP4CPwpKnSGZGHIC8YjqF5Wk3Z8826nksYQhIN066six6mUtfyJRHkK/nwvAimoO1k54pNit38XX8T8+hexg==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      tslib: 2.4.1
+    dev: false
+
+  /commander/9.4.1:
+    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==}
+    engines: {node: ^12.20.0 || >=14}
+    dev: false
+
+  /stream-chain/2.2.5:
+    resolution: {integrity: sha512-1TJmBx6aSWqZ4tx7aTpBDXK0/e2hhcNSTV8+CbFJtDjbb+I1mZ8lHit0Grw9GRT+6JbIrrDd8esncgBi8aBXGA==}
+    dev: false
+
+  /stream-json/1.7.5:
+    resolution: {integrity: sha512-NSkoVduGakxZ8a+pTPUlcGEeAGQpWL9rKJhOFCV+J/QtdQUEU5vtBgVg6eJXn8JB8RZvpbJWZGvXkhz70MLWoA==}
+    dependencies:
+      stream-chain: 2.2.5
+    dev: false
+
+  /tslib/2.4.1:
+    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+    dev: false
