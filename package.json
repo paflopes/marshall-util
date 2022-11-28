@@ -1,6 +1,6 @@
 {
-  "name": "marshall-util",
-  "version": "1.0.0",
+  "name": "dynamodb-marshall-util",
+  "version": "0.1.0",
   "description": "",
   "main": "unmarshall.js",
   "bin": {
